@@ -1,0 +1,19 @@
+.notification {
+  background-color: #ffffff;
+  margin: 2rem 5rem;
+  padding: 1rem;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  &__count {
+    background-color: hsl(219, 85%, 26%);
+    color: white;
+    border-radius: 5px;
+    padding: 0.25rem 0.5rem;
+  }
+}
